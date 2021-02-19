@@ -1,4 +1,5 @@
 <?
-include '../vendor/autoload.php';
-include '../autoload.php';
-echo 'hello world! both'?>
+    include '../vendor/autoload.php';
+    include '../autoload.php';
+    echo 'hello world! both'
+?>
