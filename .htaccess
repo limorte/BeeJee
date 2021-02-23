@@ -5,6 +5,6 @@ RewriteRule ^$ public/index.php [L]
 RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
 <FilesMatch "\.php$">
     <If "%{HTTP_HOST} =~ /.*\.local$/">
-      SetHandler "proxy:fcgi://localhost:9074/"
+      SetHandler "proxy:fcgi://localhost:9080/"
     </If>
 </FilesMatch>
