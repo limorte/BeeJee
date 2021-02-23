@@ -1,4 +1,4 @@
-<?
+<?php
 function libraryOne($classname) {
     $filename = "./path/one/". $classname .".php";
     require_once($filename);
